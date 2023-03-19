@@ -3,8 +3,8 @@
 // щоб видалити елемент item з масиву array.
 // Результат: [1, 2, 3, 4, 6, 7]
 
-const arras = [1, 2, 3, 4, 5, 6, 7, 5];
-const element = 5
+const arrayToTest = [1, 2, 3, 4, 5, 6, 7, 5];
+const elementToTest = 5
 
 function removeElement(array, item) {
     if (!Array.isArray(array)) {
@@ -22,4 +22,4 @@ function removeElement(array, item) {
         })
     }
 }
-module.exports =  {removeElement,arras,element}
+module.exports =  {removeElement}
